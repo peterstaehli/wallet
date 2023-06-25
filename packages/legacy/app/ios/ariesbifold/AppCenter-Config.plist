@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
     <dict>
-    <key>"5716e897-f8f6-4f11-b510-4bd47ecd90fd"</key>
-    <string>{Your app secret here}</string>
+    <key>AppSecret</key>
+    <string>5716e897-f8f6-4f11-b510-4bd47ecd90fd</string>
     </dict>
 </plist>
