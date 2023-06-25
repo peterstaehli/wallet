@@ -10,7 +10,7 @@ import CredentialCard from '../components/misc/CredentialCard'
 import { useConfiguration } from '../contexts/configuration'
 import { useTheme } from '../contexts/theme'
 import { CredentialStackParams, Screens } from '../types/navigators'
-import CredentialCard11 from 'components/misc/CredentialCard11'
+// import { CredentialCard11 } from 'components/misc/CredentialCard11'  // comment Peter
 
 const ListCredentials: React.FC = () => {
   const { t } = useTranslation()
