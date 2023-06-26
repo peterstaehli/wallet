@@ -5485,6 +5485,7 @@ __metadata:
     eslint-plugin-import: ^2.25.2
     eslint-plugin-prettier: ^3.3.1
     lerna: ^6.6.2
+    list: ^2.0.19
     npm-run-all: ^4.1.5
     prettier: ^2.8.4
     ts-node: ^10.0.0
@@ -12632,6 +12633,13 @@ __metadata:
   bin:
     lint-staged: bin/lint-staged.js
   checksum: b9071621db351c553579bd18df3d80fb753f851c4f1f72db0aaf12e713eab25b6d8a044dab2957817de7da02054a63f7725a49c763aee09295133f0d554f4d3f
+  languageName: node
+  linkType: hard
+
+"list@npm:^2.0.19":
+  version: 2.0.19
+  resolution: "list@npm:2.0.19"
+  checksum: c961cf9a4ef61ecd637108ecaeef06cf4e540d882571f11e94d58d9ecb7177a69f88421b3947d9edbd5c4564913afb28af85c77190dbd2e747949e374157964f
   languageName: node
   linkType: hard
 

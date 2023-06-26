@@ -21,7 +21,8 @@
     "pre-commit-lint": "run-s pre-commit-lint:core",
     "typecheck:core": "cd packages/legacy/core && yarn run typecheck",
     "typecheck": "run-s typecheck:core",
-    "next-version-bump": "ts-node ./scripts/get-next-bump.ts"
+    "next-version-bump": "ts-node ./scripts/get-next-bump.ts",
+    "list": ""
   },
   "devDependencies": {
     "@react-native-community/eslint-config": "^2.0.0",
@@ -53,5 +54,8 @@
     "@types/node": "16.9.6",
     "@aries-framework/core": "0.3.3",
     "react-native@0.66.5": "patch:react-native@npm%3A0.66.5#./.yarn/patches/react-native-npm-0.66.5-22e5dd8ec5.patch"
+  },
+  "dependencies": {
+    "list": "^2.0.19"
   }
 }
